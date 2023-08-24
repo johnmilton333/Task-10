@@ -1,38 +1,76 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg{
+  background-color: #adb5bd;
+  color: whitesmoke;
+}
+.navbar-expand-lg .navbar-collapse {
+  font-weight: bold;
+}
+.section1{
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  grid-gap: 5px;
+  max-width: 100%; /* Adjust this width as needed */
+  margin: 0 auto;
+  list-style: none;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list ul {
+  
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list li {
+  padding: 5px;
+  font-size: 20px;
+  color: rgb(0, 128, 255);
+  font-weight: 700;
+
+}
+.list li a{
+  text-decoration: none;
+
+}
+.places{
+height: 400px;
+}
+.places p{
+  font-size: 18px;
+  text-indent: 50px;
+  row-gap: 10px;
+}
+.imggs-main{
+  max-width: 100%;
+  overflow: hidden;
+  
+}
+.imggs{
+  width: 100%;
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.place-visit-list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  margin-top: 10px!important;
+}
+.card img{
+  object-fit:fill;
+}
+.light p{
+  text-align: justify;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
