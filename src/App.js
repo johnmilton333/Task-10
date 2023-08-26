@@ -1,10 +1,9 @@
 import './App.css';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes,Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BasicExample from "./Navbar"
-import Carousal from "./Carousal"
-import Blues from './Blues'
-import Places from './Trips'
+import Home from './Home';
+import Placetovisit from './Placetovisit';
 
 
 
@@ -13,9 +12,12 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <BasicExample/>
-      <Carousal/>
-      <Blues/>
-      <Places/>
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/placetovisit" element={<Placetovisit/>} />
+
+      
+      </Routes>
      </BrowserRouter>
       
     </div>

@@ -42,9 +42,7 @@
   text-decoration: none;
 
 }
-.places{
-height: 400px;
-}
+
 .places p{
   font-size: 18px;
   text-indent: 50px;
@@ -70,7 +68,39 @@ height: 400px;
 }
 .light p{
   text-align: justify;
+  margin-top: 30px;
 }
+.double{
+  width: 530px;
+  height: 500px;
+  margin-top: 15px;
+}
+.fit{
+  width: 1200px;
+  text-align: justify;
+
+}
+.start2{
+  height: 80px;
+  margin-top:-30px ;
+}
+.triple{
+  width:200px;
+  height: 200px;
+  margin-top: 0px;
+  background: pink;
+}
+.tight{
+  text-align: justify;
+ 
+  margin-top: 60px;
+}
+.vibe{
+  height: 150px;
+  text-align: justify;
+}
+
+
 
 
 
